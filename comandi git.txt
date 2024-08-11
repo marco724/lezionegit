@@ -1,0 +1,81 @@
+comandi git
+
+clear
+
+*ls -la (per avere informazioni sul branch)
+
+*mkdir (creazione cartella)
+
+*cd+nomecartella (per entrare nella cartella)
+
+*git init(per inizializzare un git reposity nel percorso designato)
+
+*ls -la .git/(per vedere all interno della cartella git cosa contiene)
+
+*git status(controllo generico)
+
+*touch nome file( per creare un file)
+
+*nano nome file( per aprire il file e scriverci)
+
+*echo ciao> nome file(per creare e scriverci dentro)
+
+*cat nome file( per visualizzare il contenuto del file direttamente in dash)
+
+*git add . (per inserire il commit(modifiche ai file))
+
+*git rm(per eliminare il file dallo stage)
+
+*git commit -m "nome commit"(per committare tutto quello che è presente nello stage)
+
+*git config --global user.mail nostra mail( per associare la nostra mail in git)
+
+*git config --global user.name nostro nome( per associare il nome)
+
+*git restore --stage . o nome file( per stornare uno o piu file dallo stage)
+
+*git log ( per visualizzare i commit registrati)
+
+*git log --reverse ( visualizzazione contraria)
+
+*git log --oneline( visualizzazione ridotta)
+
+*gitk (programma visualizzazione elenco commit)
+
+*reset solo locale( git reset HEAD^^ oppure tilde(alt+126) e numero passi indietro oppure numero di commit in cui tornare)
+
+*reset --hard (cancellazione da repository ed area di lavoro)(perdita di dati completa)
+
+*reset --mixed (da repository ad area di lavoro)
+
+*reset --soft (da repository a staging area)
+
+*touch .gitignore (file per nascondere i file) +nano(per scrivere all interno cosa ignorare)
+
+*git branch +nome branch
+
+*git log --all --decorate --oneline --graph( per vedere tutti i branch che abbiamo)
+
+*alias git graph=*git log --all --decorate --oneline --graph(per creare un alias per richiamare questo comando)
+
+*git checkout nome branch( per spostare l HAED sul branch nominato)
+
+*git commit -am "nome messaggio" ( per caricare il nuovo commit con messaggio)
+
+*per unire i branch
+
+*git checkout per portare head nella posizione desiderata +
+*git merge nome branch da unire per metterli insieme 
+
+*git branch --merged( per visualizzare quali commit si sono uniti)
+
+*git branch -d "nome branch" (per eliminare)(git branch -D per eliminare branch non uniti)
+
+*git merge --abort (per eliminare il commando di merge dopo un conflitto)
+
+*git mergetool (confronta file merge in conflitto)
+
+*git config --global mergetool.keepBackup false( per sistemare un merge)
+
+
+
